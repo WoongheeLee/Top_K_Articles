@@ -9,6 +9,8 @@ Goal: return top-k similar articles
 
 # Result
 
+Those results are obatined given 10 random articles.
+
 [Your Query] 289
 
 매크로 스틱 칩 교환 방법. 추가사항 - 준비물 	http://woongheelee.com/entry/매크로-스틱-칩-교환-방법-추가사항-준비물

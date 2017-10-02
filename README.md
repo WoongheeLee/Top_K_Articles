@@ -3,3 +3,9 @@
 Given: an article
 
 Goal: return top-k similar articles
+
+
+------------------------------
+
+# Result
+

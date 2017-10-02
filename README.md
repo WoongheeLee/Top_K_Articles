@@ -9,7 +9,7 @@ Goal: return top-k similar articles
 
 # Result
 
-Those results are obatined given 10 random articles.
+Those results are obatined given 10 random articles as a query for each iteration.
 
 [Your Query] 289
 

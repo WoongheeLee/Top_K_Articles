@@ -108,9 +108,9 @@ public class ArticleVectorize {
 				String term = (String) df.keySet().toArray()[j];
 				
 				if (tf.containsKey(term+";"+i))
-					w[i][j] = (1.0 + Math.log((double)tf.get(term+";"+i))) * Math.log10((double)df.keySet().size() / (double) df.get(term));
+					w[i][j] = Math.log(1.0 + (double)tf.get(term+";"+i)) * Math.log10((double)df.keySet().size() / (double) df.get(term));
 				else
-					w[i][j] = Math.log10((double)df.keySet().size() / (double) df.get(term));
+					w[i][j] = 0d; // Math.log10((double)df.keySet().size() / (double) df.get(term));
 			}
 		}
 		

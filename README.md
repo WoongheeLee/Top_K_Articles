@@ -203,3 +203,8 @@ USB완전정복3.0버전까지USB의모든것 	http://woongheelee.com/entry/USB�
 
 프리젠테이션 박사 	http://woongheelee.com/entry/프리젠테이션-박사
 
+# To Do
+
+BlogCrawler.java occurs heap size explosion error.
+
+StringBuffer should be global variable.
